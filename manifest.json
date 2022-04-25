@@ -1,8 +1,8 @@
 {
-  "name": "YOURAPPNAME",
-  "vendor": "vtex",
+  "name": "personifyxp-tracking-integration",
+  "vendor": "personifyxppartneruk",
   "version": "0.0.1",
-  "title": "CHANGEME",
+  "title": "personifyxp-tracking-integration",
   "description": "CHANGEME",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
@@ -25,12 +25,12 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "personifyxp-tracking-integration",
     "type": "object",
     "properties": {
-      "gtmId": {
+      "ppId": {
         "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+        "description": "Enter the ID from personifyxp",
         "type": "string"
       }
     }
