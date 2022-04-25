@@ -24,16 +24,5 @@
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
   },
-  "settingsSchema": {
-    "title": "personifyxp-tracking-integration",
-    "type": "object",
-    "properties": {
-      "ppId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID from personifyxp",
-        "type": "string"
-      }
-    }
-  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
